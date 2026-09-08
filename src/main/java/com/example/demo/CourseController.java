@@ -62,6 +62,10 @@ public class CourseController {
         return "UP";
     }
 
+    @GetMapping("/health/v3")
+    public String healthCheckV3() {
+        return "UP3";
+    }
 
     @GetMapping("/welcome")
     public String greetings() {
