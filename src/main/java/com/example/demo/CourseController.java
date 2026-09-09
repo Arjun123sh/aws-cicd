@@ -72,5 +72,8 @@ public class CourseController {
         return "Hello Techie , AWS CICD Example working fine !";
     }
 
-
+    @GetMapping("/aws-cicd")
+    public String func(){
+        return "Deployment is successful";
+    }
 }
