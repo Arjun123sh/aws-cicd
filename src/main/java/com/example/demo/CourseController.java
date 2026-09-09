@@ -76,4 +76,8 @@ public class CourseController {
     public String func(){
         return "Deployment is successful";
     }
+    @GetMapping("/aws-cicd12")
+    public String func1(){
+        return "Deployment is successful";
+    }
 }
