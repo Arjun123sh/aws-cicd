@@ -80,4 +80,8 @@ public class CourseController {
     public String func1(){
         return "Deployment is successful";
     }
+    @GetMapping("/aws-cicd13")
+    public String func2(){
+        return "Second deployement is success";
+    }
 }
